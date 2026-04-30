@@ -19,8 +19,11 @@ const Header = () => {
       {
        burger && (
         <div className='onclick'>
-          <button className='btn-login' onClick={()=>setBurger(false)}><Link className='login'>yopish</Link></button>
-          <input type="email"  placeholder='enter your email'/>
+          <button className='btn-login1' onClick={()=>setBurger(false)}><Link className='login'>X</Link></button>
+          <input type="email"  placeholder='Email' className='email-input'/>
+          <input type="password" placeholder='Password' className='input-password'/>
+          <input type="date" className='input-date'/> 
+          <input type="submit" className='btn-submit'/>
         </div>
        )
 
