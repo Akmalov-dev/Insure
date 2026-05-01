@@ -10,6 +10,7 @@
   font-weight: bold;
   cursor: pointer;
   margin-top: 10px;
+  margin-left: 30px;
 }
 
 .nav {
@@ -86,6 +87,10 @@
   color: white;
   text-decoration: none;
 }
+.login1{
+  color: white;
+  text-decoration: none;
+}
 .login:active{
   opacity: 70%;
 }
@@ -95,9 +100,11 @@
   width: 400px;
   background-color: rgb(57, 1, 84);
   height: 100vh;
+  position: absolute;
+  margin-left: 1060px;
 }
 .btn-login1{
-    background-color: rgb(53, 2, 170);
+    background-color: red;
   height: 30px;
   width: 30px;
   border-style: none;
@@ -128,7 +135,7 @@
 }
 .btn-submit{
   width: 100px;
-  background-color: rgb(0, 255, 0);
+  background-color: rgb(0, 165, 0);
   color: white;
   border-style: none;
   border-radius: 5px;
@@ -142,4 +149,41 @@
 }
 .btn-submit:active{
   opacity: 60%;
+}
+.header-container{
+  display: flex;
+  background-color: #2D2641;
+  height: 600px;
+  margin-top: 50px;
+}
+.img-family{
+  width: 700px;
+  margin-top: 50px;
+}
+.f-insurance{
+  color: white;
+  font-size: 80px;
+  font-weight: bold;
+  width: 600px;
+  margin-left: 150px;
+}
+.f-get{
+  color: rgb(212, 212, 212);
+  width: 500px;
+  margin-left: 150px;
+  font-weight: bold;
+  margin-top: -40px;
+}
+.btn-plans{
+  color: white;
+  background-color: #2D2641;
+  border-style: 1px solid;
+  border-color: white;
+  height: 40px;
+  width: 170px;
+  margin-left: 150px;
+  margin-top: 30px;
+}
+.header-fonts{
+  margin-top: 50px;
 }
