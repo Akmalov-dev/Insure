@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './Heaer.css'
 import Family from '../header/images/family.png'
+import Thunder from '../header/images/thunder.png'
 
 const Header = () => {
   const [burger , setBurger] = useState(false);
@@ -39,6 +40,37 @@ const Header = () => {
       </div>
       <div>
         <img className='img-family' src={Family} alt="" />
+      </div>
+    </div>
+
+
+    <p className='f-different'>We're different</p>
+
+    <div className='different'>
+      <div className='process'>
+        <img className='img-thunder' src={Thunder} alt="" />
+        <p className='f-snappy'>Snappy Process</p>
+        <p className='f-our'>Our application process can be completed in minutes, not hours. Don’t get stuck filling in tedious forms.</p>
+      </div>
+        <div className='process'>
+        <img className='img-thunder' src={Thunder} alt="" />
+        <p className='f-snappy'>Snappy Process</p>
+        <p className='f-our'>Our application process can be completed in minutes, not hours. Don’t get stuck filling in tedious forms.</p>
+      </div>
+        <div className='process'>
+        <img className='img-thunder' src={Thunder} alt="" />
+        <p className='f-snappy'>Snappy Process</p>
+        <p className='f-our'>Our application process can be completed in minutes, not hours. Don’t get stuck filling in tedious forms.</p>
+      </div>
+    </div>
+
+    <div>
+      <div>
+        <p>Find out more</p>
+        <p>about how we work</p>
+      </div>
+      <div>
+        <button>how we work</button>
       </div>
     </div>
    </> 

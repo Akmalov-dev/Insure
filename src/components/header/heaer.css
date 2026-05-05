@@ -187,3 +187,29 @@
 .header-fonts{
   margin-top: 50px;
 }
+.f-different{
+  font-size: 120px;
+  margin-left: 350px;
+}
+.img-thunder{
+  width: 150px;
+}
+.process{
+  display: flex;
+  flex-direction: column;
+}
+.f-snappy{
+  font-size: 30px;
+  font-weight: bold;
+}
+.f-our{
+  font-size: 20px;
+  color: grey;
+  width: 400px;
+  margin-top: 0;
+}
+.different{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 100px;
+}
