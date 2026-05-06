@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom'
 import './Heaer.css'
 import Family from '../header/images/family.png'
 import Thunder from '../header/images/thunder.png'
+import { FaBars } from "react-icons/fa";
+import Git from '../header/images/github.svg'
+import Linkedin from '../header/images/linkedin.webp'
+import Insta from '../header/images/insta.webp'
 
 const Header = () => {
   const [burger , setBurger] = useState(false);
@@ -16,7 +20,7 @@ const Header = () => {
         <Link to="/contact">ACCOUNT</Link>
       </nav>
       <div>
-        <button className='btn-login' onClick={()=>setBurger(true)}><Link className='login'>Login</Link></button>
+         <FaBars onClick={()=>setBurger(true)}/>
       </div>
 
       {
@@ -64,13 +68,48 @@ const Header = () => {
       </div>
     </div>
 
-    <div>
-      <div>
-        <p>Find out more</p>
-        <p>about how we work</p>
+    <div className='middle'>
+      <div className='font-middle'>
+        <p className='f-find'>Find out more</p>
+        <p className='f-about'>about how we work</p>
       </div>
       <div>
-        <button>how we work</button>
+        <button className='btn-how'>how we work</button>
+      </div>
+    </div>
+
+    <div className='footer-links'>
+      <div>
+        <p className='logo1'>INSURE</p>
+      </div>
+      <div>
+        <a href="https://github.com/"><img className='git' src={Git} alt="" /></a>
+        <a href="https://www.linkedin.com/"><img className='linkedin' src={Linkedin} alt="" /></a>
+        <a href="https://www.instagram.com/"><img className='insta' src={Insta} alt="" /></a>
+      </div>
+    </div>
+    <hr />
+
+    <div className='footer'>
+      <div className='final'>
+        <Link>OUR COMPANY</Link>
+        <Link>HOW WE WORK</Link>
+        <Link>WHY ISNURE?</Link>
+      </div>
+        <div className='final'>
+        <Link>OUR COMPANY</Link>
+        <Link>HOW WE WORK</Link>
+        <Link>WHY ISNURE?</Link>
+      </div>
+        <div className='final'>
+        <Link>OUR COMPANY</Link>
+        <Link>HOW WE WORK</Link>
+        <Link>WHY ISNURE?</Link>
+      </div>
+        <div className='final'>
+        <Link>OUR COMPANY</Link>
+        <Link>HOW WE WORK</Link>
+        <Link>WHY ISNURE?</Link>
       </div>
     </div>
    </> 
